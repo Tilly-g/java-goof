@@ -1,6 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+/<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
+    <parent>/
         <artifactId>todolist-mvc</artifactId>
         <groupId>io.github.snyk</groupId>
         <version>1.0-SNAPSHOT</version>
@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>todolist-core</artifactId>
-    <packaging>jar</packaging>
+    <packaging>jar</packaging>/
 
     <name>todolist-core</name>
 
@@ -88,7 +88,7 @@
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.0-api</artifactId>
             <version>1.0.1.Final</version>
-        </dependency>
+        </dependency>/
 
         <dependency>
             <groupId>commons-collections</groupId>
