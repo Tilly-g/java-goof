@@ -16,7 +16,7 @@
 
         <!--spring-->
         <dependency>
-            <groupId>org.sprin/gframework</groupId>
+            <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring.version}</version>
         </dependency>
@@ -42,7 +42,7 @@
 
         <!-- AspectJ -->
         <dependency>
-            <groupId>org.aspectj</groupId>/
+            <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.2</version>
         </dependency>
@@ -69,7 +69,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.hibernate</groupId>/
+            <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <version>${hibernate.version}</version>
             <exclusions>
@@ -91,7 +91,7 @@
         </dependency>
 
         <dependency>
-            <groupId>commons-collections</groupId>/
+            <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
             <version>3.2.2</version>
         </dependency>
